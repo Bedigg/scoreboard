@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="score">
+                <h3>HOME</h3>
+                <p class="board" id="sum-home">0</p>
+                
+                <div>
+                    <button onclick="oneHome()">+1</button>
+                    <button onclick="twoHome()">+2</button>
+                    <button onclick="threeHome()">+3</button>
+                </div>
+                <div>
+                <p class="timeout" id="timeout-home">0</p>
+                <button onclick="timeoutH()">Timeout</button>
+                </div>
+                
+            </div>       
+        
+            <div class="score">
+                <h3>GUEST</h3>
+                <p class="board" id="sum-guest">0</p>
+                
+                <div>
+                    <button onclick="oneGuest()">+1</button>
+                    <button onclick="twoGuest()">+2</button>
+                    <button onclick="threeGuest()">+3</button>   
+                </div>
+                <div>
+                <p class="timeout" id="timeout-guest">0</p>
+                <button onclick="timeoutG()">Timeout</button>
+                </div>
+                
+                
+            </div> 
+            
+        </div>
+        
+            <button class="new" onclick="newGame()">NEW GAME</button>
+    
+        <script src="index.js"></script>
+    </body>
+</html>

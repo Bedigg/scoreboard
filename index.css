@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url(CursedTimer.ttf);
+}
+
+body {
+    
+    background: #1B244A;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.board {
+    border : 2px solid black;
+    border-radius: 5px;
+    background: black;
+    padding: 10px 30px; 
+    font-family: CursedTimer, sans-serif;
+    font-size: 30px;
+    color: #F94F6D;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+
+
+button {
+    background: #1B244A;
+    border : 1px solid #9AABD8;
+    border-radius: 3px;  
+    padding: 2px 4px 2px 4px;
+    color: #9AABD8;
+    font-family: CursedTimer, sans-serif;
+    font-size: 10px;
+}
+
+.new {
+    margin-top: 40px ;
+    border : 1px solid whitesmoke;
+    border-radius: 3px;  
+    padding: 3px 6px 3px 6px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new:hover {
+    border : 2px solid #F94F6D;
+    border-radius: 3px;  
+    padding: 3px 6px 3px 6px;
+    color: #F94F6D;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.timeout{
+    border-radius: 5px;
+    padding-top: 5px;
+    padding: 5px 5px;
+   font-size: 15px;
+    flex-direction: column;
+    text-align: center;
+    background: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #F94F6D;
+    font-weight: 500;
+}
